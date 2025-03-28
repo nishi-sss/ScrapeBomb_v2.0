@@ -1,0 +1,40 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs & Debug
+logs/
+*.log
+
+# Environment variables & Config
+.env
+config.py
+secrets.json
+
+# Cache & Temporary files
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Selenium WebDriver (もし追加するなら)
+chromedriver
+geckodriver
+
+
+# Pythonキャッシュ
+*.py[cod]
+
+# 出力データ（CSVなど）
+data/
+*.csv
+
+# OS・エディタ系
+.idea/
+.vscode/
+
+# メモ
+README_dev.md
+
